@@ -1,0 +1,6 @@
+@use '../mixins/responsive.scss' as *;
+.main{
+    @include responsive (laptop){
+        padding: 36px 165px 75px 165px;
+    }
+}

@@ -1,1 +1,36 @@
+@use '../mixins/responsive.scss' as *;
+.text{
+    font-weight: 700;
+    &--xs{
+        font-size: 12zpx;
+        color: #8C98C6;
+    }
+    &--s{
+        font-size: 0.875rem;
+        color: #8C98C6;
+    }
+    &--xl{
+        font-size: 3.5rem;
+        line-height: 3rem;
+        letter-spacing: -0.125rem;
+    }
+    &--separated{
+        font-size: 0.75rem;
+        letter-spacing: 0.3125rem;
+        font-weight: 400;
+    }
+    &--green{
+        margin: 0;
+        font-size: 0.75rem;
+        color: #1EB589;
+    }
+    &--red{
+        margin: 0;
+        font-size: 0.75rem;
+        color: #DC414C;
+    }
+    &--number{
+        font-size: 2rem;
+    }
 
+}

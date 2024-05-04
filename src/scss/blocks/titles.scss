@@ -1,1 +1,8 @@
-
+@use '../mixins/responsive.scss' as *;
+.title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    @include responsive (laptop){
+        font-size: 1.75rem;
+    }
+}

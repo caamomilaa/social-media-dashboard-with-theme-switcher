@@ -2,23 +2,180 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>social-media-dashboard-with-theme-switcher</title>
   </head>
   <body>
-    <div class="card">
-      <h1 class="card__title">Título</h1>
-      <p class="card__text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quis
-        mollitia sequi, quae voluptatem, eligendi, nam repudiandae cupiditate ad
-        consequatur natus omnis ducimus pariatur excepturi in magni voluptas
-        repellat quasi?
-      </p>
-      <a class="card__button" href="">boton</a>
-    </div>
+    <main class="main">
+      <section class="dashboard">
+        <h2 class="title">Social Media Dashboard</h2>
+        <p class="text text--s">Total Followers: 23,004</p>
+        <article class="card__container">
+          <div class="card card--blue">
+            <div class="card__name">
+              <img class="card__icon" src="./assets/images/icon-facebook.svg" alt="facebook">
+              <p class="text text--xs">@nathanf</p>
+            </div>
+              <span class="text text--xl">1987</span>
+              <p class="text text--separated">FOLLOWERS</p>
+              <div class="card__today">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">12 Today</p>
+              </div>
+          </div>
+          <div class="card card--blue">
+            <div class="card__name">
+              <img class="card__icon" src="./assets/images/icon-twitter.svg" alt="twitter">
+              <p class="text text--xs">@nathanf</p>
+            </div>
+              <span class="text text--xl">1044</span>
+              <p class="text text--separated">FOLLOWERS</p>
+              <div class="card__today">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">99 Today</p>
+              </div>
+          </div>
+          <div class="card card--gradient">
+            <div class="card__name">
+              <img class="card__icon" src="./assets/images/icon-instagram.svg" alt="instagram">
+              <p class="text text--xs">@realnathanf</p>
+            </div>
+              <span class="text text--xl">11k</span>
+              <p class="text text--separated">FOLLOWERS</p>
+              <div class="card__today">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">1099 Today</p>
+              </div>
+          </div>
+          <div class="card card--red">
+            <div class="card__name">
+              <img class="card__icon" src="./assets/images/icon-youtube.svg" alt="youtube">
+              <p class="text text--xs">Nathan F.</p>
+            </div>
+              <span class="text text--xl">8239</span>
+              <p class="text text--separated">SUSCRIBIERS</p>
+              <div class="card__today">
+                <img class="card__down" src="./assets/images/icon-down.svg" alt="">
+                <p class="text text--red">144 Today</p>
+              </div>
+          </div>
+        </article>
+       </section> 
+      <section class="overview">
+        <h2 class="title">Overview - Today</h2>
+        <article class="card-overview__container">
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class=" text text--s">Page Views</p>
+              <img class="card__icon" src="./assets/images/icon-facebook.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">87</span>
+              <div class="card-overview__rate">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">3%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Likes</p>
+              <img class="card__icon" src="./assets/images/icon-facebook.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">52</span>
+              <div class="card-overview__rate">
+                <img class="card__down" src="./assets/images/icon-down.svg" alt="">
+                <p class="text text--red">2%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Likes</p>
+              <img class="card__icon" src="./assets/images/icon-instagram.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">5642</span>
+              <div class="card-overview__rate">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">2257%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Page Views</p>
+              <img class="card__icon" src="./assets/images/icon-instagram.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">52k</span>
+              <div class="card-overview__rate">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">1375%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Retweets</p>
+              <img class="card__icon" src="./assets/images/icon-twitter.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">117</span>
+              <div class="card-overview__rate">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">303%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Likes</p>
+              <img class="card__icon" src="./assets/images/icon-twitter.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">507</span>
+              <div class="card-overview__rate">
+                <img class="card__up" src="./assets/images/icon-up.svg" alt="">
+                <p class="text text--green">553%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Likes</p>
+              <img class="card__icon" src="./assets/images/icon-youtube.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">107</span>
+              <div class="card-overview__rate">
+                <img class="card__down" src="./assets/images/icon-down.svg" alt="">
+                <p class="text text--red">19%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-overview">
+            <div class="card-overview__top">
+              <p class="text text--s">Total Views</p>
+              <img class="card__icon" src="./assets/images/icon-youtube.svg" alt="">
+            </div>
+            <div class="card-overview__info">
+              <span class="text text--number">1407</span>
+              <div class="card-overview__rate">
+                <img class="card__down" src="./assets/images/icon-down.svg" alt="">
+                <p class="text text--red">12%</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>   
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
